@@ -1,0 +1,85 @@
+#navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#navbar #logo-section {
+  width: 10%;
+}
+#navbar #logo-section #page-logo {
+  position: relative;
+  width: 90px;
+  height: 40px;
+  top: 15px;
+  left: 20px;
+}
+#navbar #navbar-main-content {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#navbar #navbar-main-content #navbar-left-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+}
+#navbar #navbar-main-content #navbar-left-section #navbar-items {
+  display: flex;
+  flex-direction: row;
+}
+#navbar #navbar-main-content #navbar-left-section #navbar-items li {
+  list-style-type: none;
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  padding: 0 20px 0px 0px;
+  margin: 0;
+}
+#navbar #navbar-main-content #navbar-left-section #navbar-items li:hover {
+  color: hsl(0, 0%, 8%);
+}
+#navbar #navbar-main-content #navbar-left-section #navbar-items .regular-elements {
+  position: relative;
+  top: 6px;
+  cursor: pointer;
+}
+#navbar #navbar-main-content #navbar-left-section #navbar-items .arrow-icon {
+  padding-left: 5px;
+}
+#navbar #navbar-main-content #navbar-right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 30px;
+}
+#navbar #navbar-main-content #navbar-right-section #login {
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+#navbar #navbar-main-content #navbar-right-section #login:hover {
+  color: hsl(0, 0%, 8%);
+}
+#navbar #navbar-main-content #navbar-right-section .register {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 98%);
+  border: 2px solid hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 41%);
+  cursor: pointer;
+}
+#navbar #navbar-main-content #navbar-right-section .register:hover {
+  border: 2px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+}
+#navbar #drawer #icon-menu {
+  border: none;
+  background-color: hsl(0, 0%, 98%);
+  padding: 15px 20px 0px 0px;
+}/*# sourceMappingURL=navbarStyles.css.map */
